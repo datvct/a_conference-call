@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 900px;
+    justify-content: space-between;
+}
+.left-top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 50px;
+}
+.item {
+    width: 35px;
+    margin-top: 50px;
+}
+
+.setting {
+    margin-top: 36px;
+}
+
+#center{
+    width: 910px;
+    background-color: antiquewhite;
+}
+#right{
+    width: 450px;
+}
+#main{
+    padding: 0 2%;
+}
+.header-title-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.header-left{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-right{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-right .icon{
+    font-size: 40px;
+    color: red;
+    font-family: unset;
+}
+.header-right p{
+    color: red;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
