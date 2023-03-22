@@ -37,7 +37,7 @@
     width: 50px;
 }
 .item {
-    width: 25px;
+    width: 30px;
     margin-top: 50px;
 }
 
@@ -61,7 +61,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    
+    margin: 1%
 }
 .header-left{
     font-size: 30px;
@@ -71,18 +71,18 @@
     display: flex;
     width: 80px;
     height: 40px;
-    border: 2px solid red;
+    border: 2px solid rgb(229, 93, 127);
     border-radius: 40px;
     align-items: center;
     justify-content: space-evenly;
 }
 .header-right .icon{
     font-size: 40px;
-    color: red;
+    color: rgb(229, 93, 127);
     font-family: unset;
 }
 .header-right p{
-    color: red;
+    color: rgb(229, 93, 127);
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -92,6 +92,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px;
+    margin: 1%
 }
 .item-title{
     display: flex;
@@ -105,9 +106,9 @@
     display: flex;
     align-items: center;
     font-size: 15px;
-    border: 8px solid red;
+    border: 8px solid rgb(229, 93, 127);
     border-radius: 30px;
-    background-color: red;
+    background-color: rgb(229, 93, 127);
     color: white;
     gap: 5px;
 }
@@ -131,7 +132,7 @@
 .name{
     display: flex;
     justify-content: space-around;
-    width: 27%;
+    width: 22%;
     height: 40px;
     margin: 10px 20px;
     border-radius: 5px;
@@ -146,8 +147,8 @@
 }
 .name h2{
     color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
 }
 .mic-color{
     margin: 10px 20px;
@@ -187,7 +188,7 @@
 .item-left h2{
     color: white;
     font-size: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .item-right{
     margin: 8px 15px;
@@ -224,4 +225,111 @@
     padding: 1%;
     border: 3px solid red;
     border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-top{
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.right-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+    padding-top: 2%;
+}
+.participants{
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.participants p{
+    color: rgb(229, 93, 127);
+    background-color: pink;
+    border-radius: 20px;
+    border: 3px solid pink;
+    width: 15px;
+    padding-left: 2%;
+    font-size: 12px;
+}
+.add{
+    border-radius: 5px;
+    border: 2px solid rgb(229, 93, 127);
+    color: rgb(229, 93, 127);
+    padding: 2% 3%;
+}
+
+.right-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+.items-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5px
+    
+}
+.item-top{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 11px;
+    align-items: center;
+    margin: 2% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20%;
+    background-color: rgb(245, 245, 245);
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-top p{
+    color:rgb(169, 169, 169)  ;
+}
+.item-bottom-left{
+    margin-left: 20%;
+    background-color: rgb(245, 245, 245);
+    margin-right: 60%;
+    padding: 3%;
+}
+.item-bottom p{
+    font-size: 15px;
+}
+.icon-chat img{
+    margin-left:20%;
+}
+.input-left{
+    width: 75%;
+    margin: 5%;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-left input{
+    border: none;
+    padding: 5%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.input-left i{
+    padding-right: 5%;
+}
+.fa-paper-plane-top{
+    color: red;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.input-right{
+    color: rgb(229, 93, 127);
 }
