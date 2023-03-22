@@ -9,14 +9,16 @@
 
 #container {
     display: flex;
-    justify-content: space-between;
-    width: 1440px;
+    justify-content: center;
+    width: 100%;
+    
 }
 #left{
     display: flex;
     flex-direction: column;
     width: 90px;
     height: 900px;
+    margin-top: 20px;
     justify-content: space-between;
 }
 .left-top{
@@ -35,7 +37,7 @@
     width: 50px;
 }
 .item {
-    width: 35px;
+    width: 25px;
     margin-top: 50px;
 }
 
@@ -45,19 +47,20 @@
 
 #center{
     width: 910px;
-    background-color: antiquewhite;
+    border: 1px solid rgb(204, 204, 204);
+
 }
 #right{
     width: 450px;
 }
 #main{
-    padding: 0 2%;
+    padding: 20px;
 }
 .header-title-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    padding: 10px;
     
 }
 .header-left{
@@ -71,7 +74,7 @@
     border: 2px solid red;
     border-radius: 40px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .header-right .icon{
     font-size: 40px;
@@ -81,5 +84,144 @@
 .header-right p{
     color: red;
     font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.item-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.internal{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border: 8px solid red;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    gap: 5px;
+}
+.user{
+    width: 15px;
+    background-color: white;
+    border-radius: 10px;
+} 
+.banner{
+    padding: 15px 20px;
+}
+
+.banner-item{
+    width: 830px;
+    height: 460px;
+    background-image: url(/BaiTapTH_Tuan_04_Web/img/img_big.png);
+    display: flex;
+    
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 27%;
+    height: 40px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    align-items: center;
+}
+.name p{
+    font-size: 35px;
+    color: rgb(3, 225, 3);
+    
+}
+.name h2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mic-color{
+    margin: 10px 20px;
+}
+.metting{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.video-small{
+    width: 260px;
+    height: 160px;
+    background-image: url(/BaiTapTH_Tuan_04_Web/img/img2.png);
+    display: flex;
+    justify-content: flex-start;
+}
+.metting-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-left{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    margin: 5px 15px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.5;
+    align-items: center;
+}
+.item-left p{
+    font-size: 25px;
+    color: rgb(3, 225, 3);
+}
+.item-left h2{
+    color: white;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item-right{
+    margin: 8px 15px;
+   
+}
+.item-right img{
+    width: 20px;
+}
+.video-small-1{
+    width: 260px;
+    height: 160px;
+    background-image: url(/BaiTapTH_Tuan_04_Web/img/img1.png);
+    display: flex;
+    justify-content: flex-start;
+}
+.video-small-2{
+    width: 260px;
+    height: 160px;
+    background-image: url(/BaiTapTH_Tuan_04_Web/img/img.png);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.menu-button .end{
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    padding: 1%;
+    border: 3px solid red;
+    border-radius: 3px;
 }
